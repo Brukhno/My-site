@@ -1,0 +1,67 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    height: 1366px;
+    width: 383px;
+    position: relative;
+}
+.container__image{
+    width: 100%;
+    height: 100%;
+}
+.title__container{
+    width: 98%;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    border:solid black;
+    background-color:rgb(165, 165, 206);
+}
+.title__text{
+    text-align: center;
+    font-size: 40px;
+}
+.contaier__value{
+    background-color:rgb(228, 157, 157);
+    position: absolute;
+    border:2px solid black;
+    width: 301px;
+    height: 341px;
+    top: 70px;
+    left: 10px;
+}
+.i-1{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.img__men{
+    position: absolute;
+    width: 300px;
+    top: 40px;
+    border:1px solid black;
+}
+.wrapper{
+    position: absolute;
+    border:2px solid black;
+    width: 600px;
+    height: 480px;
+    left: 30%;
+    top: 70px;
+}
+.wrapper__fon{
+    width: 100%;
+}
+.wrapper__title{
+    position: absolute;
+    top:5px;
+    left: 50px;
+}
+.js-todos{
+    position:absolute;
+    top: 70px;
+    left: 50px;
+}
